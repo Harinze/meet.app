@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+
+body{
+    font-family: 'Red Hat Display';
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+.images-container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 358px;
+}
+
+
+.left-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px ;
+}
+.left img{
+    margin-top: 20px;
+}
+
+.left-top{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    margin-right: 30px ;
+}
+.left-top img{
+    margin-top: 20px;
+}
+.right-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    display: flex;
+    flex-direction: column ;
+    margin-left: 30px ;
+}
+.right img{
+    margin-top: 20px;
+}
+.right-bottom{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-left: 30px ;
+}
+.right-bottom img{
+    margin-top: 20px;
+}
+
+.center-container{
+    position: absolute;
+    width: 540px;
+    height: 304px;
+    text-align: center;
+    top: 50px;
+    right: 420px;
+   
+
+}
+.center-container h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #28283D;
+    padding-top: 20px;
+   
+}
+
+.center-container p{
+    width: 540px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+
+}
+
+.btc-left{
+    width: 193px;
+    height: 58px;
+    border: 0;
+    background: #71C0D4;
+    border-radius: 29px;
+}
+
+.btc-right{
+    width: 193px;
+    height: 58px;
+    border: 0;
+    background: #B18BDD;
+    border-radius: 29px;
+}
+.sections{
+    height: 150px;
+   display: flex;
+   justify-content: center;
+   margin-top: 80px;
+}
+.section{
+
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+  
+ }
+ .section img{
+    height: 180px;
+    z-index: 1;
+ }
+.about-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 75px ;
+    padding-right: 90px;
+}
+
+
+.about-images img{
+    margin-right: 20px;
+    width: 30%;
+}
+
+.text{
+  
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.text h3{
+    text-transform: uppercase;
+    color: #71C0D4;
+    line-height: 26px;
+    font-weight: 900;
+    font-size: 16px;
+   
+    
+    
+ 
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    margin-top: 20px;
+
+}
+.text p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footers{
+    position: absolute;
+    height: 300px;
+    width: 1500px;
+    background-image: url("./asset/Bitmapfoot.png");
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    color: white;
+
+}
+.btcs{
+    width: 193px;
+    height: 58px;
+    border: 0;
+    background: #B18BDD;
+    border-radius: 29px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1350px){
+    
+    .center-container{
+        position: initial; 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+    .about-images{
+        position: initial;
+        size: 50px;
+    }
+
+
+
+}
